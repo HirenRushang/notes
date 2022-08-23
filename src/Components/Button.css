@@ -1,0 +1,51 @@
+.nte_cret_btn{
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+    padding: 7px 10px;
+}
+.btn_wrapper .btn{
+    margin-top: 83px;
+    margin-left: 100px
+}
+
+.btn_wrapper .select_color{
+    margin-left: 108px;
+    margin-top: 31px;
+}
+
+.btn_wrapper .select_color ul{
+    list-style-type: none;
+    padding: 0;
+}
+.btn_wrapper .select_color .color{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin: 5px 0;
+
+}
+
+@media only screen and (max-width: 420px) {
+    .btn_wrapper .btn{
+       margin: 0;
+    }
+
+    .btn_wrapper{
+        display: flex;
+    }
+
+    .btn_wrapper .select_color{
+        margin-top: 0;
+        margin-left: 20px;
+    }
+
+    .btn_wrapper .select_color ul{
+        display: flex;
+        margin: 0;
+    }
+  } 
+
+
+
+

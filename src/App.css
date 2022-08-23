@@ -1,0 +1,33 @@
+
+.app .whole_app{
+    display: flex;
+    flex-direction: row;
+    
+    margin: 30px 50px;
+    
+}
+
+.app .whole_app .note_create_container{
+    flex: 1;
+   
+}
+
+.app .whole_app .note_shown_container{
+    flex: 8;
+   
+}
+
+
+ @media only screen and (max-width: 420px) {
+    .app .whole_app{
+        display: flex;
+        flex-direction: column;
+    }
+  } 
+
+  
+ @media only screen and (max-width: 350px) {
+    .app .whole_app{
+       margin: 15px 15px;
+    }
+  } 
